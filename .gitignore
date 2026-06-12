@@ -1,0 +1,61 @@
+```gitignore
+# ROS2 build artifacts
+build/
+install/
+log/
+
+
+
+# Colcon metadata
+.colcon/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# VS Code
+.vscode/
+
+# CLion
+.idea/
+
+# Eclipse
+.project
+.cproject
+
+# Temporary files
+*.swp
+*~
+
+# Linux generated files
+.DS_Store
+Thumbs.db
+
+# Python virtual environments
+venv/
+.env/
+
+# ROS bag files
+*.db3
+*.mcap
+
+# Coverage reports
+.coverage
+htmlcov/
+
+# CMake files inside packages
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# Test results
+test_results/
+
+# Ignore compiled libraries and executables
+*.so
+*.o
+*.a
+*.out
+```
