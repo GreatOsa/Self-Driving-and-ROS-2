@@ -1,6 +1,6 @@
 from setuptools import find_packages, setup
 
-package_name = 'bumperbot_py_examples'
+package_name = 'bumperbot_planning'
 
 setup(
     name=package_name,
@@ -24,11 +24,6 @@ setup(
     },
     entry_points={
         'console_scripts': [
-            'simple_publisher = bumperbot_py_examples.simple_publisher:main',
-            'simple_subscriber = bumperbot_py_examples.simple_subscriber:main',
-            'simple_lifecycle_node = bumperbot_py_examples.simple_lifecycle_node:main',
-            'simple_qos_publisher = bumperbot_py_examples.simple_qos_publisher:main',
-            'simple_qos_subscriber = bumperbot_py_examples.simple_qos_subscriber:main',
         ],
     },
 )
